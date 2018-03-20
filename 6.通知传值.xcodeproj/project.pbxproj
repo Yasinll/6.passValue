@@ -13,10 +13,11 @@
 		CD3168901FC7C9260014BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31688F1FC7C9260014BA81 /* Assets.xcassets */; };
 		CD3168931FC7C9260014BA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3168911FC7C9260014BA81 /* LaunchScreen.storyboard */; };
 		CD3168961FC7C9260014BA81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3168951FC7C9260014BA81 /* main.m */; };
+		CD31689F1FC7CD8D0014BA81 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31689E1FC7CD8D0014BA81 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD3168831FC7C9260014BA81 /* 1.属性传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.属性传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3168831FC7C9260014BA81 /* 6.通知传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6.通知传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3168861FC7C9260014BA81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD3168871FC7C9260014BA81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD3168891FC7C9260014BA81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -26,6 +27,8 @@
 		CD3168921FC7C9260014BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3168941FC7C9260014BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3168951FC7C9260014BA81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD31689D1FC7CD8D0014BA81 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		CD31689E1FC7CD8D0014BA81 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +53,7 @@
 		CD3168841FC7C9260014BA81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD3168831FC7C9260014BA81 /* 1.属性传值.app */,
+				CD3168831FC7C9260014BA81 /* 6.通知传值.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +65,8 @@
 				CD3168871FC7C9260014BA81 /* AppDelegate.m */,
 				CD3168891FC7C9260014BA81 /* ViewController.h */,
 				CD31688A1FC7C9260014BA81 /* ViewController.m */,
+				CD31689D1FC7CD8D0014BA81 /* NextViewController.h */,
+				CD31689E1FC7CD8D0014BA81 /* NextViewController.m */,
 				CD31688C1FC7C9260014BA81 /* Main.storyboard */,
 				CD31688F1FC7C9260014BA81 /* Assets.xcassets */,
 				CD3168911FC7C9260014BA81 /* LaunchScreen.storyboard */,
@@ -74,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD3168821FC7C9260014BA81 /* 1.属性传值 */ = {
+		CD3168821FC7C9260014BA81 /* 6.通知传值 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD3168991FC7C9260014BA81 /* Build configuration list for PBXNativeTarget "1.属性传值" */;
+			buildConfigurationList = CD3168991FC7C9260014BA81 /* Build configuration list for PBXNativeTarget "6.通知传值" */;
 			buildPhases = (
 				CD31687F1FC7C9260014BA81 /* Sources */,
 				CD3168801FC7C9260014BA81 /* Frameworks */,
@@ -86,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "1.属性传值";
+			name = "6.通知传值";
 			productName = "1.属性传值";
-			productReference = CD3168831FC7C9260014BA81 /* 1.属性传值.app */;
+			productReference = CD3168831FC7C9260014BA81 /* 6.通知传值.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD31687E1FC7C9260014BA81 /* Build configuration list for PBXProject "1.属性传值" */;
+			buildConfigurationList = CD31687E1FC7C9260014BA81 /* Build configuration list for PBXProject "6.通知传值" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD3168821FC7C9260014BA81 /* 1.属性传值 */,
+				CD3168821FC7C9260014BA81 /* 6.通知传值 */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD31688B1FC7C9260014BA81 /* ViewController.m in Sources */,
+				CD31689F1FC7CD8D0014BA81 /* NextViewController.m in Sources */,
 				CD3168961FC7C9260014BA81 /* main.m in Sources */,
 				CD3168881FC7C9260014BA81 /* AppDelegate.m in Sources */,
 			);
@@ -305,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD31687E1FC7C9260014BA81 /* Build configuration list for PBXProject "1.属性传值" */ = {
+		CD31687E1FC7C9260014BA81 /* Build configuration list for PBXProject "6.通知传值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD3168971FC7C9260014BA81 /* Debug */,
@@ -314,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD3168991FC7C9260014BA81 /* Build configuration list for PBXNativeTarget "1.属性传值" */ = {
+		CD3168991FC7C9260014BA81 /* Build configuration list for PBXNativeTarget "6.通知传值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD31689A1FC7C9260014BA81 /* Debug */,
